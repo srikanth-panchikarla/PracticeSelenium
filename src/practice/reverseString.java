@@ -15,8 +15,7 @@ public class reverseString {
 		
 		String str= "Srikanth";
 		StringBuilder stringbuilder= new StringBuilder(str).reverse();
-		
-		//stringbuilder.append(str);
+				//stringbuilder.append(str);
 		//stringbuilder=stringbuilder.reverse();
 		System.out.println(stringbuilder);
 		

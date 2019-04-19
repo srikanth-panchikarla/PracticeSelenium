@@ -13,8 +13,6 @@ public class ICICIclass implements BankInterface{
 		
 		icici.secondMethod(1);
 		
-		
-
 	}
 
 	@Override
