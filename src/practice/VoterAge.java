@@ -5,6 +5,7 @@ package practice;
 public class VoterAge {
 
 	public static void main(String[] args) throws InvalidAgeException {
+		
 		int ageOfVoter = 12;
 		checkValidAge(ageOfVoter);
 
@@ -19,6 +20,8 @@ public class VoterAge {
 			throw new InvalidAgeException("This person is not eligible for voting due to age constrain");
 
 		}
+		
+		else { System.out.println("Valid voter age:");} 
 
 	}
 
